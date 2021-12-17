@@ -21,3 +21,22 @@ Vous aurez sûrement besoin de joindre les différentes tables entre elles.
 Michaël, votre manager, vous incite à sélectionner un kernel Kaggle pour vous faciliter la préparation des données nécessaires à l’élaboration du modèle de scoring. Vous analyserez ce kernel et l’adapterez pour vous assurer qu’il répond aux besoins de votre mission.
 
 Vous pourrez ainsi vous focaliser sur l’élaboration du modèle, son optimisation et sa compréhension.
+
+## Spécifications du dashboard
+Michaël vous a fourni un cahier des charges pour le dashboard interactif. Celui-ci devra a minima contenir les fonctionnalités suivantes :
+- Permettre de visualiser le score et l’interprétation de ce score pour chaque client de façon intelligible pour une personne non experte en data science.
+- Permettre de visualiser des informations descriptives relatives à un client (via un système de filtre).
+- Permettre de comparer les informations descriptives relatives à un client à l’ensemble des clients ou à un groupe de clients similaires.
+
+## Livrables attendus
+- Le dashboard interactif répondant au cahier des charges précisé ci-dessus.
+- Un dossier sur un outil de versioning de code contenant :
+  - Le code de la modélisation (du prétraitement à la prédiction)
+  - Le code générant le dashboard
+  - Le code permettant de déployer le modèle sous forme d'API
+- Une note méthodologique décrivant :
+  - La méthodologie d'entraînement du modèle
+  - La fonction coût, l'algorithme d'optimisation et la métrique d'évaluation
+  - L’interprétabilité du modèle
+  - Les limites et les améliorations possibles
+- Nouveau : Un support de présentation pour la soutenance.
